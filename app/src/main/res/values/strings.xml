@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="DIU">DIU</string>
+    <string name="set_gender">Gender</string>
+    <!--<string name="male_text">Male</string>
+    <string name="Female_text">Female</string>-->
+    <string name="textview1">Simple Calculator</string>
+    <string name="number1">Enter Number 1</string>
+    <string name="number2">Enter Number 2</string>
+    <string name="button1">sum</string>
+    <string name="button2">Sub</string>
+    <string name="button3">Divide</string>
+    <string name="button4">Multi</string>
+    <string name="button5">Clear</string>
+    <string name="resultShow">Result</string>
+    <string name="loginText">Login</string>
+    <string name="signupText">SignUp</string>
+    <string name="calcuText">Calculator</string>
+    <string name="HomeText">Home Page</string>
+
+</resources>

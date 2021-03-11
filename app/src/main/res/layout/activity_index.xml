@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexPage"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textviewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HomeText"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_marginTop="45dp"
+        android:textColor="#326CE8"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minhaj">
+    </TextView>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="40dp"
+       >
+
+       <Button
+           android:id="@+id/loginbuttonID"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/loginText"
+           android:layout_marginBottom="10dp"
+           android:drawableLeft="@drawable/login"
+           android:layout_marginLeft="40dp"
+           android:layout_marginRight="40dp"
+           >
+
+       </Button>
+
+       <Button
+           android:id="@+id/signUPbutton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_marginRight="40dp"
+           android:layout_marginBottom="10dp"
+           android:drawableLeft="@drawable/login"
+           android:text="@string/signupText">
+       </Button>
+
+       <Button
+           android:id="@+id/CalCbutton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/calcuText"
+           android:drawableLeft="@drawable/calculator"
+           android:layout_marginLeft="40dp"
+           android:layout_marginRight="40dp"
+           >
+       </Button>
+
+   </LinearLayout>
+
+</LinearLayout>
